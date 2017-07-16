@@ -26,7 +26,7 @@ describe('immutability', () => {
                 let state = List.of('Trainspotting', '28 Days Later');
                 let nextState = addMovie(state, 'Sunshine');
 
-                expect(nextState).to.equal.(List.of(
+                expect(nextState).to.equal(List.of(
                     'Trainspotting',
                     '28 Days Later',
                     'Sunshine'
